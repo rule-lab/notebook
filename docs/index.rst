@@ -14,6 +14,7 @@ Contents:
    pablo/pablo
    sahil/sahil
    shantanu/shantanu
+   recipes/recipes
 
 
 
