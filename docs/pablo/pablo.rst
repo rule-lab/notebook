@@ -1,7 +1,7 @@
 Pablo's Digital Lab Book
 ========================
 
-Hello world!
+I work on structural biology and protein library design.
 
 Entries
 -------
