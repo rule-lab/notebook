@@ -28,9 +28,13 @@ collected as W1-W4.
 The column was washed five times with 1mL volumes of :ref:`Elution Buffer
 <hispur-native-elute-buffer>`. These were collected as E1-E5.
 
+Stored in an ice bath in the cold room overnight.
+
 Gel Analysis of Fractions
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Postponed until tomorrow, this section will be replaced by a reference to that
+data.
 
 
 Made fresh Eq/W Buffer:
@@ -41,7 +45,12 @@ This is for native conditions.
 
 
 
-Started EBY100 Culture
-----------------------
+Started YVH10 Culture
+---------------------
+2 20mL cultures were started from single colonies of yeast strain YVH10 (MBIC
+strain BJ10760). One will be used for a transformation with PNL6-TLC, the other
+a Rule Lab glycerol stock for long-term storage. 20mL of media added to a 125mL
+Erlenmeyer flask (not added to a culture tube, does not achieve sufficient
+mixing for yeast) and shaken overnight at 30C.
 
 
