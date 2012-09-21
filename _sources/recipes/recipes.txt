@@ -4,15 +4,12 @@ Lab Recipes
 Feel free to reorganize things, but please preserve the reference tags.
 
 HisPur Cobalt Resin Buffers
-===========================
-
-Native Conditions
------------------
+---------------------------
 
 .. _hispur-native-eqw-buffer:
 
-Equilibration/Wash Buffer:
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Native Equilibration/Wash Buffer:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 50mM  Sodium Phosphate
 
@@ -24,8 +21,8 @@ pH 7.4
 
 .. _hispur-native-elute-buffer:
 
-Elution Buffer:
-^^^^^^^^^^^^^^^
+Native Elution Buffer:
+^^^^^^^^^^^^^^^^^^^^^^
 
 50mM  Sodium Phosphate
 
@@ -35,13 +32,11 @@ Elution Buffer:
 
 pH 7.4
 
-Denaturing Conditions
----------------------
 
 .. _hispur-denature-eqw-buffer:
 
-Equilibration/Wash Buffer:
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Denaturing Equilibration/Wash Buffer:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 50mM  Sodium Phosphate
 
@@ -55,8 +50,8 @@ pH 7.4
 
 .. _hispur-denature-elute-buffer:
 
-Elution Buffer:
-^^^^^^^^^^^^^^^
+Denaturing Elution Buffer:
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 50mM  Sodium Phosphate
 
