@@ -1,0 +1,10 @@
+September 22th, 2012
+====================
+
+Gel Analysis of Fractions
+^^^^^^^^^^^^^^^^^^^^^^^^^
+A 15% Acrylamide SDS Gel was poured to analyze the column fractions with a 3%
+stacking gel. It was observed however, once attempting to separate the plates
+containing the gel that the 15% section had not fully polymerized. This
+suggests that the acrylamide solution had degraded and that a fresh batch needs
+to be mixed.

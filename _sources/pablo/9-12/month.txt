@@ -3,6 +3,6 @@ September 2012
 
 .. toctree::
    :maxdepth: 1
+   :glob:
 
-   20
-   21
+   *

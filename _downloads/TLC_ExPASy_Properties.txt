@@ -1,0 +1,93 @@
+ProtParam
+
+User-provided sequence:
+
+        10         20         30         40         50         60 
+ASHHLLASDE EIQDVSGTWY LKAMTADREF PEMNLESVTP MTLTTLEGGN LEAKVTMLIS 
+
+        70         80         90        100        110        120 
+GRCQEVKAVL EKTDEPGKYT ADGGKHVAYI IRSHVKDHYI FYCEGELHGK PVRGVKLVGR 
+
+       130        140        150        160        170 
+DPKNNLEALE DFEKAAGARG LSTESILIPR QSETCSPGSD GSENLYFQSL EHHHHHH 
+
+
+Number of amino acids: 177
+
+Molecular weight: 19667.0
+
+Theoretical pI: 5.60
+
+Amino acid composition: 
+Ala (A)  12	  6.8%
+Arg (R)   7	  4.0%
+Asn (N)   5	  2.8%
+Asp (D)   9	  5.1%
+Cys (C)   3	  1.7%
+Gln (Q)   4	  2.3%
+Glu (E)  19	 10.7%
+Gly (G)  15	  8.5%
+His (H)  12	  6.8%
+Ile (I)   7	  4.0%
+Leu (L)  17	  9.6%
+Lys (K)  11	  6.2%
+Met (M)   4	  2.3%
+Phe (F)   4	  2.3%
+Pro (P)   7	  4.0%
+Ser (S)  13	  7.3%
+Thr (T)  11	  6.2%
+Trp (W)   1	  0.6%
+Tyr (Y)   6	  3.4%
+Val (V)  10	  5.6%
+Pyl (O)   0	  0.0%
+Sec (U)   0	  0.0%
+
+ (B)   0	  0.0%
+ (Z)   0	  0.0%
+ (X)   0	  0.0%
+
+
+Total number of negatively charged residues (Asp + Glu): 28
+Total number of positively charged residues (Arg + Lys): 18
+
+Atomic composition:
+
+Carbon      C	       859
+Hydrogen    H	      1343
+Nitrogen    N	       243
+Oxygen      O	       273
+Sulfur      S	         7
+
+Formula: C859H1343N243O273S7
+Total number of atoms: 2725
+
+Extinction coefficients:
+
+Extinction coefficients are in units of  M-1 cm-1, at 280 nm measured in water.
+
+Ext. coefficient    14565
+Abs 0.1% (=1 g/l)   0.741, assuming all pairs of Cys residues form cystines
+
+
+Ext. coefficient    14440
+Abs 0.1% (=1 g/l)   0.734, assuming all Cys residues are reduced
+
+Estimated half-life:
+
+The N-terminal of the sequence considered is A (Ala).
+
+The estimated half-life is: 4.4 hours (mammalian reticulocytes, in vitro).
+                            >20 hours (yeast, in vivo).
+                            >10 hours (Escherichia coli, in vivo).
+
+
+Instability index:
+
+The instability index (II) is computed to be 29.68
+This classifies the protein as stable.
+
+
+
+Aliphatic index: 76.05
+
+Grand average of hydropathicity (GRAVY): -0.567
