@@ -19,6 +19,8 @@ Pictures of the gel are shown below.
 .. image:: 9-26_gel_image_BW_cropped.jpg
    :scale: 40
 
+.. _9-24-12-expression:
+
 Quantification of Expression
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
