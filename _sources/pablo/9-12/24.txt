@@ -14,9 +14,10 @@ spun briefly in a microfuge to bring condensate to the bottom. The gel was
 loaded in the following sequence: L1, FT, W1, W2, W4, E1, E2, E3, E5, L2.
 Pictures of the gel are shown below.
 
-.. image:: 9-26_gel_image_iphone_cropped.jpg
+.. image:: 9-24_gel_image_iphone_cropped.jpg
    :scale: 40
-.. image:: 9-26_gel_image_BW_cropped.jpg
+
+.. image:: 9-24_gel_image_BW_cropped.jpg
    :scale: 40
 
 .. _9-24-12-expression:

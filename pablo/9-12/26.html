@@ -67,14 +67,282 @@ be mixed with a constant concentration of TLC, constituting a DIR titration.
 These mixtures will be measured in triplicate on the Tecan Safire in the MBIC
 common room. Previous experiments showed observable fluoresecence with 100nM
 TLC so that concentration will be used once more. My desired upper range of DIR
-concentration is 1mM; my desired lower range is 1mM.</p>
+concentration is 10uM (highest permitted concentration based on stock);my
+desired lower range is 1mM.</p>
 </div>
 <div class="section" id="calculations">
 <h3>Calculations<a class="headerlink" href="#calculations" title="Permalink to this headline">¶</a></h3>
-<p>To achieve 100nM of TLC in a well volume of 200uL from the
-<em class="xref std std-ref">concentration of Elution Fraction 2</em></p>
+<p>To achieve 100nM of TLC in a well volume of 100uL from the
+<a class="reference internal" href="24.html#expression"><em>concentration of Elution Fraction 2</em></a></p>
 <div class="math">
-\[6.34uM \times \chi uL = 6340nM \times \chi uL = 100nM * 200uL\]\[\chi = 20000 / 6340 uL = 3.15uL\]</div>
+\[6.34\mu M \times \chi \mu L = 6340nM \times \chi \mu L = 100nM \times 100\mu L\]\[\chi = \frac{10000}{6340} \mu L = 1.577\mu L\]</div>
+<p>This will be rounded to 1.6uL, giving a calculated concentration of 101.44nM
+and a total protein quantity of 10.1fmol.</p>
+<p>To cover the desired range of dye concentrations, the following concentrations
+will be the targets: <strong>1nM, 10nM, 40nM, 80nM, 100nM, 120nM, 400nM, 600nM,
+800nM, 6uM, 8uM, 10uM</strong>. The stock solution is a 1.04mM DIR solution in methanol. Its
+concentration was determined previously using its cited extinction coefficient.
+In methanol, at 602nm, <span class="math">\(\epsilon_{DIR} = 134000 M^{-1}cm^{-1}\)</span></p>
+<p>The formula for sample composition is thus:</p>
+<table border="1" class="docutils">
+<caption>Sample Formula</caption>
+<colgroup>
+<col width="59%" />
+<col width="41%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Component</th>
+<th class="head">Quantity</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2X Tecan Buffer</td>
+<td>50uL</td>
+</tr>
+<tr class="row-odd"><td>TLC (from E2)</td>
+<td>1.6uL</td>
+</tr>
+<tr class="row-even"><td>Dye Solution</td>
+<td>XuL</td>
+</tr>
+<tr class="row-odd"><td>ddH20</td>
+<td>(48.4-X)uL</td>
+</tr>
+</tbody>
+</table>
+<p>The following is the complete table of mixture composition, these were
+triplicated. All solutions were assembled in the cold room. Dye-only control
+solutions were made as well, per each composition, replacing each portion of
+TLC with the same volume of water.</p>
+<table border="1" class="docutils">
+<caption>All Samples</caption>
+<colgroup>
+<col width="16%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Component</th>
+<th class="head">1</th>
+<th class="head">2</th>
+<th class="head">3</th>
+<th class="head">4</th>
+<th class="head">5</th>
+<th class="head">6</th>
+<th class="head">7</th>
+<th class="head">8</th>
+<th class="head">9</th>
+<th class="head">10</th>
+<th class="head">11</th>
+<th class="head">12</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2X Tecan Buffer</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+<td>50uL</td>
+</tr>
+<tr class="row-odd"><td>TLC (from E2)</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+<td>1.6uL</td>
+</tr>
+<tr class="row-even"><td>1.04mM DIR Stock</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>1uL</td>
+</tr>
+<tr class="row-odd"><td>1/10X DIR</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>5.8uL</td>
+<td>7.7uL</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>1/100X DIR</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>3.8uL</td>
+<td>5.7uL</td>
+<td>7.7uL</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>1/1000X DIR</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>3.8uL</td>
+<td>7.7uL</td>
+<td>9.6uL</td>
+<td>11.5uL</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-even"><td>1/10000X DIR</td>
+<td>1uL</td>
+<td>9.6uL</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr class="row-odd"><td>ddH20</td>
+<td>47.4uL</td>
+<td>38.8uL</td>
+<td>44.6uL</td>
+<td>40.7uL</td>
+<td>38.8uL</td>
+<td>36.9uL</td>
+<td>44.6uL</td>
+<td>42.6uL</td>
+<td>40.7uL</td>
+<td>42.6uL</td>
+<td>40.7uL</td>
+<td>47.4uL</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="tecan-data">
+<h3>Tecan Data<a class="headerlink" href="#tecan-data" title="Permalink to this headline">¶</a></h3>
+<p>It is important to note the following relevant concentrations. TLC
+concentration is 101.44nm. Dye concentrations are very close to their targets,
+but the following table provides the numbers as pipetted (I rounded to the near
+tenth of a uL, so the numbers are slightly off), calculated based on volumes
+and dilutions.</p>
+<table border="1" class="docutils">
+<caption>DIR Concentrations</caption>
+<colgroup>
+<col width="16%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+<col width="7%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">&nbsp;</th>
+<th class="head">1</th>
+<th class="head">2</th>
+<th class="head">3</th>
+<th class="head">4</th>
+<th class="head">5</th>
+<th class="head">6</th>
+<th class="head">7</th>
+<th class="head">8</th>
+<th class="head">9</th>
+<th class="head">10</th>
+<th class="head">11</th>
+<th class="head">12</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>DIR Conc. (nM)</td>
+<td>1.04</td>
+<td>9.984</td>
+<td>39.52</td>
+<td>80.08</td>
+<td>99.84</td>
+<td>119.6</td>
+<td>395.2</td>
+<td>603.2</td>
+<td>800.8</td>
+<td>6032</td>
+<td>8008</td>
+<td>10400</td>
+</tr>
+</tbody>
+</table>
+<p>Though care was taken to ensure sample mixing, I executed two sixty second
+shakes before collecting any of the data shown to help assure that the samples
+were adequately mixed. The principal data used <strong>613nm</strong> as the DIR excitation
+wavelength and <strong>644nm</strong> as the DIR emission wavelength.</p>
+<p>This is the <a class="reference download internal" href="../../_downloads/Pablo_6-26-12.zip"><tt class="xref download docutils literal"><span class="pre">raw</span> <span class="pre">data</span></tt></a> Inside that zip file is a
+file named &#8220;6-26-12-Whole-Plate-Scan.xls&#8221; which contains the data to be fitted
+in order to calculate the Kd. The other files constitute preliminary scans
+used to quickly determine if things were working, and the appropriate
+parameters to use. It was observed that when the bandwidth was narrowed to 12nm
+from 20nm, a significant improvement was seen in the distinction between
+control and sample.</p>
+</div>
+</div>
+<div class="section" id="recipes">
+<h2>Recipes<a class="headerlink" href="#recipes" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="x-tecan-assay-reagent-buffer">
+<h3>2X Tecan Assay Reagent/Buffer<a class="headerlink" href="#x-tecan-assay-reagent-buffer" title="Permalink to this headline">¶</a></h3>
+<p>This Buffer is used for Tecan fluorescence. It inhibits foaming and cell
+clumping. I am told that it also prevents adherence to the plastic of the
+wells.</p>
+<p>2X   PBS</p>
+<p>4mM  EDTA</p>
+<p>0.2% F-127</p>
 </div>
 </div>
 </div>
@@ -91,6 +359,11 @@ concentration is 1mM; my desired lower range is 1mM.</p>
 <li><a class="reference internal" href="#tecan-fluorescence-determination-of-tlc-s-kd-for-dir">Tecan Fluorescence Determination of TLC&#8217;s Kd for DIR</a><ul>
 <li><a class="reference internal" href="#planned-setup">Planned Setup</a></li>
 <li><a class="reference internal" href="#calculations">Calculations</a></li>
+<li><a class="reference internal" href="#tecan-data">Tecan Data</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#recipes">Recipes</a><ul>
+<li><a class="reference internal" href="#x-tecan-assay-reagent-buffer">2X Tecan Assay Reagent/Buffer</a></li>
 </ul>
 </li>
 </ul>

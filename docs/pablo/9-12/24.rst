@@ -16,6 +16,7 @@ Pictures of the gel are shown below.
 
 .. image:: 9-24_gel_image_iphone_cropped.jpg
    :scale: 40
+
 .. image:: 9-24_gel_image_BW_cropped.jpg
    :scale: 40
 

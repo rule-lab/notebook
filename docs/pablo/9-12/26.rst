@@ -13,18 +13,119 @@ be mixed with a constant concentration of TLC, constituting a DIR titration.
 These mixtures will be measured in triplicate on the Tecan Safire in the MBIC
 common room. Previous experiments showed observable fluoresecence with 100nM
 TLC so that concentration will be used once more. My desired upper range of DIR
-concentration is 1mM; my desired lower range is 1mM.
+concentration is 10uM (highest permitted concentration based on stock);my
+desired lower range is 1mM.
 
 Calculations
 ^^^^^^^^^^^^
 
-To achieve 100nM of TLC in a well volume of 200uL from the
-:ref:`concentration of Elution Fraction 2 <9-24-12-expression>`
+To achieve 100nM of TLC in a well volume of 100uL from the
+:ref:`concentration of Elution Fraction 2 <9-24-12-expression>` 
 
 .. math::
 
-   6.34uM \times \chi uL = 6340nM \times \chi uL = 100nM * 200uL
+   6.34\mu M \times \chi \mu L = 6340nM \times \chi \mu L = 100nM \times 100\mu L
 
-   \chi = 20000 / 6340 uL = 3.15uL
+   \chi = \frac{10000}{6340} \mu L = 1.577\mu L
+
+This will be rounded to 1.6uL, giving a calculated concentration of 101.44nM
+and a total protein quantity of 10.1fmol.
+
+To cover the desired range of dye concentrations, the following concentrations
+will be the targets: **1nM, 10nM, 40nM, 80nM, 100nM, 120nM, 400nM, 600nM,
+800nM, 6uM, 8uM, 10uM**. The stock solution is a 1.04mM DIR solution in methanol. Its
+concentration was determined previously using its cited extinction coefficient.
+In methanol, at 602nm, :math:`\epsilon_{DIR} = 134000 M^{-1}cm^{-1}`
+
+The formula for sample composition is thus:
+
+.. table:: Sample Formula
+
+   +-----------------+------------+
+   | Component       | Quantity   |
+   +=================+============+
+   | 2X Tecan Buffer | 50uL       |
+   +-----------------+------------+
+   | TLC (from E2)   | 1.6uL      |
+   +-----------------+------------+
+   | Dye Solution    | XuL        |
+   +-----------------+------------+
+   | ddH20           | (48.4-X)uL |
+   +-----------------+------------+
+
+
+The following is the complete table of mixture composition, these were
+triplicated. All solutions were assembled in the cold room. Dye-only control
+solutions were made as well, per each composition, replacing each portion of
+TLC with the same volume of water.
+
+.. table:: All Samples
+
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | Component        | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8      | 9      | 10     | 11     | 12     |
+   +==================+========+========+========+========+========+========+========+========+========+========+========+========+
+   | 2X Tecan Buffer  | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | TLC (from E2)    | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1.04mM DIR Stock |        |        |        |        |        |        |        |        |        |        |        | 1uL    |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10X DIR        |        |        |        |        |        |        |        |        |        | 5.8uL  | 7.7uL  |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/100X DIR       |        |        |        |        |        |        | 3.8uL  | 5.7uL  | 7.7uL  |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/1000X DIR      |        |        | 3.8uL  | 7.7uL  | 9.6uL  | 11.5uL |        |        |        |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10000X DIR     | 1uL    | 9.6uL  |        |        |        |        |        |        |        |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | ddH20            | 47.4uL | 38.8uL | 44.6uL | 40.7uL | 38.8uL | 36.9uL | 44.6uL | 42.6uL | 40.7uL | 42.6uL | 40.7uL | 47.4uL |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+
+Tecan Data
+^^^^^^^^^^
+
+It is important to note the following relevant concentrations. TLC
+concentration is 101.44nm. Dye concentrations are very close to their targets,
+but the following table provides the numbers as pipetted (I rounded to the near
+tenth of a uL, so the numbers are slightly off), calculated based on volumes
+and dilutions.
+
+.. table:: DIR Concentrations
+
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   |                  | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8      | 9      | 10     | 11     | 12     |
+   +==================+========+========+========+========+========+========+========+========+========+========+========+========+
+   | DIR Conc. (nM)   | 1.04   | 9.984  | 39.52  | 80.08  | 99.84  | 119.6  | 395.2  | 603.2  | 800.8  | 6032   | 8008   | 10400  |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+
+Though care was taken to ensure sample mixing, I executed two sixty second
+shakes before collecting any of the data shown to help assure that the samples
+were adequately mixed. The principal data used **613nm** as the DIR excitation
+wavelength and **644nm** as the DIR emission wavelength.
+
+This is the :download:`raw data <Pablo_6-26-12.zip>`. Inside that zip file is a
+file named "6-26-12-Whole-Plate-Scan.xls" which contains the data to be fitted
+in order to calculate the Kd. The other files constitute preliminary scans
+used to quickly determine if things were working, and the appropriate
+parameters to use. It was observed that when the bandwidth was narrowed to 12nm
+from 20nm, a significant improvement was seen in the distinction between
+control and sample.
+
+Recipes
+-------
+
+2X Tecan Assay Reagent/Buffer
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This Buffer is used for Tecan fluorescence. It inhibits foaming and cell
+clumping. I am told that it also prevents adherence to the plastic of the
+wells.
+
+2X   PBS
+
+4mM  EDTA
+
+0.2% F-127
+
 
 
