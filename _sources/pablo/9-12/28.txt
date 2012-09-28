@@ -1,0 +1,112 @@
+September 28th, 2012
+====================
+
+.. _6-28-12-tdp:
+
+Tecan Data Processing
+---------------------
+
+A plot of the data can be found in this :download:`spreadsheet <6-28-Plotted.xls>`.
+Gordon fit the data and found that the K :sub:`d` of TLC and DIR to be in the
+range of 5-7uM. He suggested that the spread of points was not ideal, some data
+between 800nM and 6000nM would be good.
+
+Testing Other Fluorogens
+------------------------
+
+At the present, I have a selection of a half dozen fluorogen dyes, including
+DIR. I summarize them and their properties here:
+
+Fluorogens:
+
+**TO1-2p**
+   **Extinction Coefficient**
+      :math:`58,000M^{-1}cm^{-1}` at 504nm, in aqueous phosphate buffered solution (pH 7)
+
+   **Concentration**
+      629uM. I produced a :ref:`phosphate buffered solution <6-28-12-pbs>` to
+      measure this. An absorbance reading of a 1/500X dilution yielded an
+      absorbance of 0.073.
+
+   **Excitation**
+      ~509nm
+
+   **Emission**
+      ~530nm
+
+**αCN-TO-AME**
+   **Concentration**
+      10.8mM
+
+**DIR**
+   **Extinction Coefficient**
+      :math:`134,000M^{-1}cm^{-1}` at 602nm, in methanol
+
+   **Concentration**
+      1.04mM
+
+   **Excitation Peak**
+      613nm
+
+   **Emission Peak**
+      644nm
+
+   **Notes**
+      My current stock solution is in DMSO. The wavelengths given were determined
+      for TLC using multidimensional scans with the Tecan Safire2.
+
+**αCN-DIR**
+   **Concentration**
+      *Suspected to be around 500uM-1mM*
+
+   **Excitation**
+      522-528nm
+
+   **Emission**
+      606nm
+
+   **Notes**
+      These wavelengths determined from multidimensional Tecan scans. Their
+      accuracy may be subject to some doubt, further study is needed. There is
+      a lack of cited information about this dye, preventing me from making
+      anything more than a rough estimate of concentration.
+
+**MG-Ester**
+   **Concentration**
+      680uM
+
+   **Extinction Coefficient**
+      :math:`100,000M^{-1}cm^{-1}` at 607nm, in *unspecified, see notes*
+
+   **Excitation**
+      629-640nm
+
+   **Emission**
+      649-668nm
+
+   **Notes**
+      Solvent conditions were not noted on the spec sheet for this dye. I made
+      the assumption that it was to be measured in aqueous solution, and used
+      a 1/500X dilution into a :ref:`phosphate buffered solution <6-28-12-pbs>`.
+
+**OTB-AME**
+   **Concentration**
+      *Unknown*
+
+   **Notes**
+      Little is known about this strange pokemo... *Ahem*... fluorogen.
+
+
+
+
+Recipes
+-------
+
+.. _6-28-12-pbs:
+
+Phosphate Buffered Solution
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+100mM Sodium Phosphate Monobasic, NaH2PO4, FW 137.99
+
+Adjusted to pH 7 with 5N NaOH, ~110uL

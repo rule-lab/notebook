@@ -33,7 +33,7 @@ and a total protein quantity of 10.1fmol.
 
 To cover the desired range of dye concentrations, the following concentrations
 will be the targets: **1nM, 10nM, 40nM, 80nM, 100nM, 120nM, 400nM, 600nM,
-800nM, 6uM, 8uM, 10uM**. The stock solution is a 1.04mM DIR solution in methanol. Its
+800nM, 6uM, 8uM, 10uM**. The stock solution is a 1.04mM DIR solution. Its
 concentration was determined previously using its cited extinction coefficient.
 In methanol, at 602nm, :math:`\epsilon_{DIR} = 134000 M^{-1}cm^{-1}`
 
@@ -113,7 +113,7 @@ parameters to use. It was observed that when the bandwidth was narrowed to 12nm
 from 20nm, a significant improvement was seen in the distinction between
 control and sample.
 
-I shall link this section to the appropriate processed data when available.
+:ref:`Follow for analysis <6-28-12-tdp>`.
 
 Recipes
 -------
