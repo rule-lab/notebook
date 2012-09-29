@@ -75,7 +75,7 @@ DIR. I summarize them and their properties here:</p>
 <dt><strong>Extinction Coefficient</strong></dt>
 <dd><span class="math">\(58,000M^{-1}cm^{-1}\)</span> at 504nm, in aqueous phosphate buffered solution (pH 7)</dd>
 <dt><strong>Concentration</strong></dt>
-<dd>629uM. I produced a <a class="reference internal" href="#pbs"><em>phosphate buffered solution</em></a> to
+<dd>629uM. I produced a <a class="reference internal" href="#pbs-1"><em>phosphate buffered solution 1</em></a> to
 measure this. An absorbance reading of a 1/500X dilution yielded an
 absorbance of 0.073.</dd>
 <dt><strong>Excitation</strong></dt>
@@ -90,7 +90,7 @@ absorbance of 0.073.</dd>
 <dd>10.8mM</dd>
 </dl>
 </dd>
-<dt><strong>DIR</strong></dt>
+<dt><strong>DIR-AME</strong></dt>
 <dd><dl class="first last docutils">
 <dt><strong>Extinction Coefficient</strong></dt>
 <dd><span class="math">\(134,000M^{-1}cm^{-1}\)</span> at 602nm, in methanol</dd>
@@ -102,7 +102,8 @@ absorbance of 0.073.</dd>
 <dd>644nm</dd>
 <dt><strong>Notes</strong></dt>
 <dd>My current stock solution is in DMSO. The wavelengths given were determined
-for TLC using multidimensional scans with the Tecan Safire2.</dd>
+for TLC using multidimensional scans with the Tecan Safire2. Previous
+references to DIR refer to this DIR-AME.</dd>
 </dl>
 </dd>
 <dt><strong>αCN-DIR</strong></dt>
@@ -133,25 +134,40 @@ anything more than a rough estimate of concentration.</dd>
 <dt><strong>Notes</strong></dt>
 <dd>Solvent conditions were not noted on the spec sheet for this dye. I made
 the assumption that it was to be measured in aqueous solution, and used
-a 1/500X dilution into a <a class="reference internal" href="#pbs"><em>phosphate buffered solution</em></a>.</dd>
+a 1/500X dilution into a <a class="reference internal" href="#pbs-1"><em>phosphate buffered solution 1</em></a>.</dd>
 </dl>
 </dd>
 <dt><strong>OTB-AME</strong></dt>
 <dd><dl class="first last docutils">
 <dt><strong>Concentration</strong></dt>
-<dd><em>Unknown</em></dd>
+<dd>574uM</dd>
+<dt><strong>Extinction Coefficient</strong></dt>
+<dd>The cited extinction coefficient for OTB-SO3 is:math:<cite>92,400M^{-1}cm{-1}</cite>
+at 400nm, in <a class="reference internal" href="#pbs-2-otb"><em>phosphate buffered solution 2</em></a></dd>
+<dt><strong>Excitation</strong></dt>
+<dd>400nm</dd>
+<dt><strong>Emission</strong></dt>
+<dd>420nm (Can shift up to 430-440nm for some FAPs)</dd>
 <dt><strong>Notes</strong></dt>
-<dd>Little is known about this strange pokemo... <em>Ahem</em>... fluorogen.</dd>
+<dd>It is unclear to what extent the AME alters this fluorogen, I have not
+yet found relevant citeable information.</dd>
 </dl>
 </dd>
 </dl>
 </div>
 <div class="section" id="recipes">
 <h2>Recipes<a class="headerlink" href="#recipes" title="Permalink to this headline">¶</a></h2>
-<div class="section" id="phosphate-buffered-solution">
-<span id="pbs"></span><h3>Phosphate Buffered Solution<a class="headerlink" href="#phosphate-buffered-solution" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="phosphate-buffered-solution-1">
+<span id="pbs-1"></span><h3>Phosphate Buffered Solution 1<a class="headerlink" href="#phosphate-buffered-solution-1" title="Permalink to this headline">¶</a></h3>
 <p>100mM Sodium Phosphate Monobasic, NaH2PO4, FW 137.99</p>
 <p>Adjusted to pH 7 with 5N NaOH, ~110uL</p>
+</div>
+<div class="section" id="phosphate-buffered-solution-2">
+<span id="pbs-2-otb"></span><h3>Phosphate Buffered Solution 2<a class="headerlink" href="#phosphate-buffered-solution-2" title="Permalink to this headline">¶</a></h3>
+<p>This buffer is specified in DOI: 10.1039/c0ob00444h for spectroscopy for OTB-SO3.</p>
+<p>10mM Sodium Phosphate</p>
+<p>100mM NaCl</p>
+<p>Adjusted to pH 7 with NaOH</p>
 </div>
 </div>
 </div>
@@ -168,7 +184,8 @@ a 1/500X dilution into a <a class="reference internal" href="#pbs"><em>phosphate
 <li><a class="reference internal" href="#tecan-data-processing">Tecan Data Processing</a></li>
 <li><a class="reference internal" href="#testing-other-fluorogens">Testing Other Fluorogens</a></li>
 <li><a class="reference internal" href="#recipes">Recipes</a><ul>
-<li><a class="reference internal" href="#phosphate-buffered-solution">Phosphate Buffered Solution</a></li>
+<li><a class="reference internal" href="#phosphate-buffered-solution-1">Phosphate Buffered Solution 1</a></li>
+<li><a class="reference internal" href="#phosphate-buffered-solution-2">Phosphate Buffered Solution 2</a></li>
 </ul>
 </li>
 </ul>

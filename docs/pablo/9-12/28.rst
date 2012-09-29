@@ -24,7 +24,7 @@ Fluorogens:
       :math:`58,000M^{-1}cm^{-1}` at 504nm, in aqueous phosphate buffered solution (pH 7)
 
    **Concentration**
-      629uM. I produced a :ref:`phosphate buffered solution <6-28-12-pbs>` to
+      629uM. I produced a :ref:`phosphate buffered solution 1 <6-28-12-pbs-1>` to
       measure this. An absorbance reading of a 1/500X dilution yielded an
       absorbance of 0.073.
 
@@ -38,7 +38,7 @@ Fluorogens:
    **Concentration**
       10.8mM
 
-**DIR**
+**DIR-AME**
    **Extinction Coefficient**
       :math:`134,000M^{-1}cm^{-1}` at 602nm, in methanol
 
@@ -53,7 +53,8 @@ Fluorogens:
 
    **Notes**
       My current stock solution is in DMSO. The wavelengths given were determined
-      for TLC using multidimensional scans with the Tecan Safire2.
+      for TLC using multidimensional scans with the Tecan Safire2. Previous
+      references to DIR refer to this DIR-AME.
 
 **αCN-DIR**
    **Concentration**
@@ -87,26 +88,49 @@ Fluorogens:
    **Notes**
       Solvent conditions were not noted on the spec sheet for this dye. I made
       the assumption that it was to be measured in aqueous solution, and used
-      a 1/500X dilution into a :ref:`phosphate buffered solution <6-28-12-pbs>`.
+      a 1/500X dilution into a :ref:`phosphate buffered solution 1 <6-28-12-pbs-1>`.
 
 **OTB-AME**
    **Concentration**
-      *Unknown*
+      574uM
+
+   **Extinction Coefficient**
+      The cited extinction coefficient for OTB-SO3 is:math:`92,400M^{-1}cm{-1}`
+      at 400nm, in :ref:`phosphate buffered solution 2 <6-28-12-pbs-2-otb>`
+
+   **Excitation**
+      400nm
+
+   **Emission**
+      420nm (Can shift up to 430-440nm for some FAPs)
 
    **Notes**
-      Little is known about this strange pokemo... *Ahem*... fluorogen.
-
-
+      It is unclear to what extent the AME alters this fluorogen, I have not
+      yet found relevant citeable information.
 
 
 Recipes
 -------
 
-.. _6-28-12-pbs:
+.. _6-28-12-pbs-1:
 
-Phosphate Buffered Solution
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Phosphate Buffered Solution 1
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 100mM Sodium Phosphate Monobasic, NaH2PO4, FW 137.99
 
 Adjusted to pH 7 with 5N NaOH, ~110uL
+
+.. _6-28-12-pbs-2-otb:
+
+Phosphate Buffered Solution 2
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This buffer is specified in DOI: 10.1039/c0ob00444h for spectroscopy for OTB-SO3.
+
+10mM Sodium Phosphate
+
+100mM NaCl
+
+Adjusted to pH 7 with NaOH
+
