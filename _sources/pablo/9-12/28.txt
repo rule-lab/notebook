@@ -1,12 +1,12 @@
 September 28th, 2012
 ====================
 
-.. _6-28-12-tdp:
+.. _9-28-12-tdp:
 
 Tecan Data Processing
 ---------------------
 
-A plot of the data can be found in this :download:`spreadsheet <6-28-Plotted.xls>`.
+A plot of the data can be found in this :download:`spreadsheet <9-28-Plotted.xls>`.
 Gordon fit the data and found that the K :sub:`d` of TLC and DIR to be in the
 range of 5-7uM. He suggested that the spread of points was not ideal, some data
 between 800nM and 6000nM would be good.
@@ -24,7 +24,7 @@ Fluorogens:
       :math:`58,000M^{-1}cm^{-1}` at 504nm, in aqueous phosphate buffered solution (pH 7)
 
    **Concentration**
-      629uM. I produced a :ref:`phosphate buffered solution 1 <6-28-12-pbs-1>` to
+      629uM. I produced a :ref:`phosphate buffered solution 1 <9-28-12-pbs-1>` to
       measure this. An absorbance reading of a 1/500X dilution yielded an
       absorbance of 0.073.
 
@@ -88,15 +88,15 @@ Fluorogens:
    **Notes**
       Solvent conditions were not noted on the spec sheet for this dye. I made
       the assumption that it was to be measured in aqueous solution, and used
-      a 1/500X dilution into a :ref:`phosphate buffered solution 1 <6-28-12-pbs-1>`.
+      a 1/500X dilution into a :ref:`phosphate buffered solution 1 <9-28-12-pbs-1>`.
 
 **OTB-AME**
    **Concentration**
       574uM
 
    **Extinction Coefficient**
-      The cited extinction coefficient for OTB-SO3 is:math:`92,400M^{-1}cm{-1}`
-      at 400nm, in :ref:`phosphate buffered solution 2 <6-28-12-pbs-2-otb>`
+      The cited extinction coefficient for OTB-SO3 is :math:`92,400M^{-1}cm{-1}`
+      at 400nm, in :ref:`phosphate buffered solution 2 <9-28-12-pbs-2-otb>`
 
    **Excitation**
       400nm
@@ -112,7 +112,7 @@ Fluorogens:
 Recipes
 -------
 
-.. _6-28-12-pbs-1:
+.. _9-28-12-pbs-1:
 
 Phosphate Buffered Solution 1
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -121,7 +121,7 @@ Phosphate Buffered Solution 1
 
 Adjusted to pH 7 with 5N NaOH, ~110uL
 
-.. _6-28-12-pbs-2-otb:
+.. _9-28-12-pbs-2-otb:
 
 Phosphate Buffered Solution 2
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

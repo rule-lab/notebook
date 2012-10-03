@@ -1,0 +1,10 @@
+October 2nd, 2012
+=================
+
+Yeast Transformation
+^^^^^^^^^^^^^^^^^^^^
+
+Yeast chemical transformation with PNL6_TLC was successful. No colonies on
+negative control. Both samples blanketed with colonies. Single colony streaks
+were made and incubated at 30C. These plates preserved in parafilm and
+refridgerated.

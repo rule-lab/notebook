@@ -1,0 +1,64 @@
+September 29th, 2012
+====================
+
+Yeast Transformation
+^^^^^^^^^^^^^^^^^^^^
+
+Transformation of YVH10 with PNL6_TLC was delayed due to insufficient overnight
+growth. Will be performed tomorrow.
+
+Tecan Assay for Alternative Fluorogen Activation
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+:download:`Download the raw data <Pablo_9-29-12.zip>`
+
+The goal of this experiment was to determine whether TLC activates any of the
+fluorogens, T01-2P, aCN-TO-AME, OTB-AME, MG-Ester, aCN-DIR, and DIR-AME (a
+positive control, as demonstrated especially in :doc:`26` as the K :sub:`d` was
+determined by DIR fluorescence. The same concentration of TLC, ~100nM, was used
+in all samples, and each dye was examined at concentrations of 1uM and 10um.
+All samples were performed in quadruplicate, except for DIR-AME which was
+done in triplicate. A protein-only control took the place of the fourth well.
+Dye-only controls were employed for each sample, replacing the TLC ingredient
+with the same volume of ddH2O
+
+.. table:: All Samples
+
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | Component        | 1      | 2      | 3      | 4      | 5      | 6      | 7      | 8      | 9      | 10     | 11     | 12     |
+   +==================+========+========+========+========+========+========+========+========+========+========+========+========+
+   | 2X Tecan Buffer  | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   | 50uL   |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | TLC (from E2)    | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  | 1.6uL  |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10X TO1-2P     | 1.6uL  | 16uL   |        |        |        |        |        |        |        |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/100X aCN-TO-AME|        |        | 9uL    |        |        |        |        |        |        |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10X aCN-TO-AME |        |        |        | 9uL    |        |        |        |        |        |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10X OTB-AME    |        |        |        |        | 1.7uL  | 17uL   |        |        |        |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10X MG-Ester   |        |        |        |        |        |        | 1.5uL  | 15uL   |        |        |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10X aCN-DIR    |        |        |        |        |        |        |        |        | 2uL    | 20uL   |        |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/100X DIR-AME   |        |        |        |        |        |        |        |        |        |        | 9.6uL  |        |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | 1/10X DIR-AME    |        |        |        |        |        |        |        |        |        |        |        | 9.6uL  |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+   | ddH20            | 46.8uL | 32.4uL | 39.4uL | 39.4uL | 46.7uL | 31.4uL | 46.9uL | 33.4uL | 46.4uL | 28.4uL | 38.8uL | 38.8uL |
+   +------------------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+--------+
+
+These samples were assayed using the Tecan Safire2 in MBIC. Previously
+reported wavelengths were available for all but aCN-TO-AME. I did perform 2D
+scans on OTB-AME and aCN-DIR, and a 3D scan on MG-Ester in the interest of
+refining the sensitivity of the assay. Since I didn't know the expected
+wavelengths for aCN-TO-AME, I performed 3D scans to do my best to
+independently determine them. I will compare these values to others' when I can
+find someone who has worked with this dye.
+
+I will post processed data in a future entry and post a link here to that data
+and a summary.
+
+

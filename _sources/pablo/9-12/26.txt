@@ -103,17 +103,17 @@ shakes before collecting any of the data shown to help assure that the samples
 were adequately mixed. The principal data used **613nm** as the DIR excitation
 wavelength and **644nm** as the DIR emission wavelength.
 
-This is the :download:`raw data <Pablo_6-26-12.zip>`.
+This is the :download:`raw data <Pablo_9-26-12.zip>`.
 
 Inside that zip file is a
-file named "6-26-12-Whole-Plate-Scan.xls" which contains the data to be fitted
+file named "9-26-12-Whole-Plate-Scan.xls" which contains the data to be fitted
 in order to calculate the Kd. The other files constitute preliminary scans
 used to quickly determine if things were working, and the appropriate
 parameters to use. It was observed that when the bandwidth was narrowed to 12nm
 from 20nm, a significant improvement was seen in the distinction between
 control and sample.
 
-:ref:`Follow for analysis <6-28-12-tdp>`.
+:ref:`Follow for analysis <9-28-12-tdp>`.
 
 Recipes
 -------

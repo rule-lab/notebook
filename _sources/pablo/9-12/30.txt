@@ -1,0 +1,11 @@
+September 30th, 2012
+====================
+
+Yeast Transformation
+^^^^^^^^^^^^^^^^^^^^
+
+Robert Alberstein performed this Yeast Chemical Transformation using the
+day-and-a-half culture of YVH10 and a 78.3ng/uL prep of PNL6_TLC. Selective
+plates of *SD+CAA +Ura -Trp* were used; two samples and one negative control
+(no DNA) were plated and plaaced in the 30C incubator. Later confirmed positive
+on :doc:`../10-12/2`
